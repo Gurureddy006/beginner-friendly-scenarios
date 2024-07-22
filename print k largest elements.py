@@ -5,4 +5,7 @@ k = 3
 for i in range(len(a)):
     res = sorted(a)
 print(res)
-print(res[::-1][:k])
+print(res[::-1][:k]) # [50,32,23] - Decreasing order
+
+# To get an output in increasing order
+print(res[-k::]) #[23,32,50]
