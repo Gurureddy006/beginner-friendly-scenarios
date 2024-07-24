@@ -8,7 +8,6 @@ print(b)
 
 print()
 
-
 # For list to string
 c = ['g','u','r','u']
 d = ''.join(c)
